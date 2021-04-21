@@ -231,14 +231,14 @@ $(window).on('load',function(){
 var balon = document.getElementById("btnyes2");
 var vid = document.getElementById("myVideo"); 
 function playVid() { 
-				playAudio();
+				
 				openFullscreen();
 				$('#myVideo').show();
 				$('.vidcont').fadeIn();
 				$('#mywindow').fadeOut(300);
 				$('#myform').hide();
 				$('btnyes2').show();
-				vid.volume = 0;
+				
 			  	vid.play(); 
 			} 
 vid.onended = function() {
