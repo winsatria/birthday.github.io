@@ -213,7 +213,7 @@ h1 {
 				</div>	
 			</div>
 					<div class="mybutton">
-						<a href="balon.html" class="mybuttonyes" style="margin-left: 45%; margin-top: 20%; "id="btnyes2" onclick=""> Lihat Balon</a>
+						<a href="balon.html" class="mybuttonyes" style="margin-left: 45%; margin-top: 50%; "id="btnyes2" onclick=""> Lihat Balon</a>
 					</div>
 
 
@@ -231,14 +231,14 @@ $(window).on('load',function(){
 var balon = document.getElementById("btnyes2");
 var vid = document.getElementById("myVideo"); 
 function playVid() { 
-				playAudio();
+				
 				openFullscreen();
 				$('#myVideo').show();
 				$('.vidcont').fadeIn();
 				$('#mywindow').fadeOut(300);
 				$('#myform').hide();
 				$('btnyes2').show();
-				vid.volume = 0;
+				
 			  	vid.play(); 
 			} 
 vid.onended = function() {
